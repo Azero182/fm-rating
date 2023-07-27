@@ -49,14 +49,25 @@ p {
     justify-content: space-between;
     margin-bottom: 2rem;
 }
-.but {
+input[type="radio"]{
+    display: none;
+}
+input[type=radio]+label {
+    display: flex;
     width: 42px;
     height: 42px;
     border-radius: 50%;
     border: none;
     background-color: hsl(213, 19%, 18%);
     color: hsl(217, 12%, 63%);
-    font-weight: bold;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+input[type=radio]:checked + label {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
 }
 .submit {
     width: 100%;
@@ -68,7 +79,7 @@ p {
     letter-spacing: 0.2rem;
     border: none;
 }
-.but:hover {
+input[type=radio]+ label:hover {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
