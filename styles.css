@@ -87,3 +87,37 @@ input[type=radio]+ label:hover {
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
 }
+
+
+
+/***********Styles of thank you**********/
+
+.iconty, .h1ty{
+    display: flex;
+    justify-content: center;
+}
+.pty {
+    text-align: center;
+    margin-bottom: 0.4rem;
+}
+.score {
+    display: flex;
+
+    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 2rem;
+}
+.score p {
+    display: flex;
+    width: 55%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    color:hsl(25, 97%, 53%) ;
+    border-radius: 25px;
+}
