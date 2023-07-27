@@ -41,6 +41,8 @@ p {
     font-size: 0.8rem;
     color: hsl(217, 12%, 63%);
     margin-bottom: 1.5rem;
+    letter-spacing: 0.03rem;
+    line-height: 1.1rem;
 }
 .container-star{
     display: flex;
@@ -88,7 +90,28 @@ input[type=radio]+ label:hover {
     color: hsl(25, 97%, 53%);
 }
 
-
+@media (max-width:450px){
+    body {
+        width: 350px;
+        height: 400px;
+    }
+    .container {
+    width: 83%;
+    height: 75%;
+    padding: 0.7rem;
+    }
+    .icon {
+        width: 42px;
+        height: 42px;
+        margin-bottom: 0.8rem;
+    }
+    h1 {
+        margin-bottom: 0.8rem;
+    }
+    .container-star {
+        margin-bottom: 1rem;
+    }
+}
 
 /***********Styles of thank you**********/
 
@@ -120,4 +143,24 @@ input[type=radio]+ label:hover {
     padding: 0.5rem;
     color:hsl(25, 97%, 53%) ;
     border-radius: 25px;
+}
+@media (max-width:450px){
+    .iconty {
+        margin: 0 auto;
+        width: 90px;
+        height: 90px;
+    }
+    .score p{
+        width: 58%;
+        margin: 0 auto;
+    }
+    .h1ty {
+        margin: 0 auto;
+        position: relative;
+        top: -5%;
+    }
+    p {
+        font-size: 0.8rem;
+        letter-spacing: 0rem;
+    }
 }
